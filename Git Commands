@@ -17,5 +17,37 @@ Hello world
 
 save the file
 
+The file becomes U : Un-commited
+
+Now go to terminal:
+ git add abc.txt
+
+The file became : A (added in branch)
+
+
+
+Now go to terminal:
+ git commit -m "First commit : abc.txt"
+
+The file gets commited
+
+
+Now edit the file:
+abc.txt:
+Hello World
+Modified Abc
+
+
+save the file
+
+
+The file became : M (Modified in branch, which was already comitted)
+
+Now again add and commit with message "Second commit with modified abc.txt"
+
+
+
+
+
 
 
