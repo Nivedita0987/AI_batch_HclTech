@@ -122,6 +122,10 @@ git add .
 
 git commit -m "Hello.js added"
 
+If Github is not showing correct data:
+Forcefully push all main branch data into github repo:
+git push --force origin main
+
 
 Push All Branches to Remote:
 git push origin feature-dev
@@ -142,6 +146,8 @@ If conflict occurs:
 First resolve it in VS code
 Then Merge again:
 git merge feature-design
+
+git merge feature-dev
 
 
 
